@@ -1,0 +1,7 @@
+netstat -aof | findstr :8080
+2345
+
+taskkill /PID 2345 /F
+
+
+server.port=8082
